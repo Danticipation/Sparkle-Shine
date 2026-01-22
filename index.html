@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Auto Detail | Premium Car Detailing in Phoenix, AZ</title>
+    <meta name="description" content="Professional auto detailing services in Phoenix, AZ. Interior, exterior, and premium packages to make your vehicle shine like new.">
+    <meta name="keywords" content="auto detailing Phoenix, car wash AZ, vehicle detailing, sunset auto detail">
+    <meta property="og:title" content="Sunset Auto Detail">
+    <meta property="og:description" content="Bring the showroom shine back to your vehicle with our expert detailing services.">
+    <meta property="og:image" content="logo.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .sunset-gradient { background: linear-gradient(135deg, #f59e0b 0%, #ef4444 50%, #7c3aed 100%); }
+        .glass-card { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fadeIn { animation: fadeIn 1s ease-out forwards; }
+        .parallax { background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; }
+        .hover-scale { transition: transform 0.3s ease; }
+        .hover-scale:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <img src="logo.png" alt="Sunset Auto Detail Logo" class="h-12 w-auto mr-3 animate-fadeIn">
+                    <span class="text-2xl font-bold sunset-gradient bg-clip-text text-transparent">Sunset Auto Detail</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#services" class="text-gray-600 hover:text-orange-500 px-3 py-2 font-medium">Services</a>
+                        <a href="#gallery" class="text-gray-600 hover:text-orange-500 px-3 py-2 font-medium">Gallery</a>
+                        <a href="#about" class="text-gray-600 hover:text-orange-500 px-3 py-2 font-medium">About</a>
+                        <a href="#contact" class="text-gray-600 hover:text-orange-500 px-3 py-2 font-medium">Contact</a>
+                        <a href="tel:6024305300" class="bg-orange-500 text-white px-4 py-2 rounded-full font-bold hover:bg-orange-600 transition">Call Now</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-600 hover:text-orange-500 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden px-4 py-4 space-y-4">
+                <a href="#services" class="block text-gray-600 hover:text-orange-500">Services</a>
+                <a href="#gallery" class="block text-gray-600 hover:text-orange-500">Gallery</a>
+                <a href="#about" class="block text-gray-600 hover:text-orange-500">About</a>
+                <a href="#contact" class="block text-gray-600 hover:text-orange-500">Contact</a>
+                <a href="tel:6024305300" class="block bg-orange-500 text-white px-4 py-2 rounded-full font-bold hover:bg-orange-600 transition">Call Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center justify-center overflow-hidden parallax" style="background-image: url('https://source.unsplash.com/random/1920x1080/?sunset,car');">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fadeIn">
+            <img src="logo.png" alt="Sunset Auto Detail Logo" class="w-84 lg:w-96 h-auto mb-8 mx-auto drop-shadow-2xl">
+            <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tight text-white mb-6">
+                Premium Car Care Under the <span class="sunset-gradient bg-clip-text text-transparent">Arizona Sun</span>
+            </h1>
+            <p class="text-xl text-gray-200 max-w-2xl mx-auto mb-10">
+                Professional interior and exterior detailing services in Phoenix. We bring the showroom shine back to your vehicle.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#services" class="px-8 py-4 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition shadow-lg hover-scale">View Services</a>
+                <a href="tel:6024305300" class="px-8 py-4 bg-transparent text-white border-2 border-white rounded-xl font-bold hover:border-orange-500 transition hover-scale">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-fadeIn">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">About Sunset Auto Detail</h2>
+                <p class="text-Slate-800 max-w-4xl mx-auto">Family-owned and operated in Phoenix, AZ, we're passionate about making your vehicle look its best. With over 20 years of experience, we use premium products and attention to detail to deliver results that wow.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-card rounded-2xl p-8 shadow-lg hover-scale">
+                    <i class="fas fa-tools text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Expert Craftsmanship</h3>
+                    <p class="text-gray-600">Meticulous detailing for every vehicle type.</p>
+                </div>
+                <div class="glass-card rounded-2xl p-8 shadow-lg hover-scale">
+                    <i class="fas fa-leaf text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Eco-Friendly Products</h3>
+                    <p class="text-gray-600">Safe for your car and the environment.</p>
+                </div>
+                <div class="glass-card rounded-2xl p-8 shadow-lg hover-scale">
+                    <i class="fas fa-thumbs-up text-4xl text-orange-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Satisfaction Guaranteed</h3>
+                    <p class="text-gray-600">We stand behind our work.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-fadeIn">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Our Detailing Packages</h2>
+                <p class="text-gray-600">Choose the perfect level of care for your vehicle. Prices starting at:</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Essential -->
+                <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.1s;">
+                    <h3 class="text-xl font-bold mb-2">Essential</h3>
+                    <p class="text-sm text-gray-500 mb-2">Starting at $99</p>
+                    <p class="text-sm text-gray-500 mb-6">Perfect for regular upkeep</p>
+                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Exterior Hand Wash & Dry</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tire Shine & Wheel Cleaning</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Windows Cleaned Inside & Out</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Quick Interior Vacuum</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Dashboard & Console Wipe</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Floor Mat Cleaning</li>
+                    </ul>
+                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-gray-900 text-white rounded-xl font-bold hover:bg-gray-800 transition">Book Now</a>
+                </div>
+
+                <!-- Signature -->
+                <div class="border-2 border-orange-500 glass-card rounded-2xl p-8 shadow-2xl relative flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.2s;">
+                    <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-orange-500 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Most Popular</span>
+                    <h3 class="text-xl font-bold mb-2">Signature</h3>
+                    <p class="text-sm text-gray-500 mb-2">Starting at $199</p>
+                    <p class="text-sm text-gray-500 mb-6">Complete transformation</p>
+                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+                        <li class="font-semibold text-gray-900">Everything in Essential, plus:</li>
+                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Deep Interior Vacuum & Cleaning</li>
+                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Leather/Vinyl Conditioning</li>
+                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Door Jamb Cleaning</li>
+                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Clay Bar Treatment</li>
+                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Wax Application</li>
+                    </ul>
+                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition">Book Now</a>
+                </div>
+
+                <!-- Bundle -->
+                <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.3s;">
+                    <h3 class="text-xl font-bold mb-2">Bundle</h3>
+                    <p class="text-sm text-gray-500 mb-2">Starting at $249</p>
+                    <p class="text-sm text-gray-500 mb-6">Interior + Premium Exterior</p>
+                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Complete Interior Detailing</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Premium Exterior Hand Wash</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Clay Bar Treatment</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Wax Application</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tire & Wheel Deep Clean</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Windows & Trim Perfection</li>
+                    </ul>
+                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-gray-900 text-white rounded-xl font-bold hover:bg-gray-800 transition">Book Now</a>
+                </div>
+
+                <!-- Elite -->
+                <div class="bg-gray-900 text-white rounded-2xl p-8 shadow-2xl flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.4s;">
+                    <h3 class="text-xl font-bold mb-2">Elite</h3>
+                    <p class="text-sm text-gray-400 mb-2">Starting at $299</p>
+                    <p class="text-sm text-gray-400 mb-6">Showroom quality finish</p>
+                    <ul class="space-y-3 text-gray-300 mb-8 flex-grow">
+                        <li class="font-semibold text-white">Everything in Signature, plus:</li>
+                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Engine Bay Detail</li>
+                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Headlight Restoration</li>
+                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Paint Correction (1-Step)</li>
+                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Premium Sealant Protection</li>
+                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Chrome & Trim Polishing</li>
+                    </ul>
+                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-yellow-500 text-gray-900 rounded-xl font-bold hover:bg-yellow-400 transition">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-fadeIn">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Before & After Gallery</h2>
+                <p class="text-gray-600">See the Sunset difference for yourself</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <img src="C:\Website-code\sunset-auto-detail\Public\before-after-1.jpg" alt="Before Detailing" class="rounded-xl shadow-lg hover-scale" loading="lazy">
+                <img src="C:\Website-code\sunset-auto-detail\Public\before-after-2.jpg" alt="After Detailing" class="rounded-xl shadow-lg hover-scale" loading="lazy">
+                <img src="C:\Website-code\sunset-auto-detail\Public\before-after-3.jpg" alt="Interior Detail" class="rounded-xl shadow-lg hover-scale" loading="lazy">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-fadeIn">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+                <p class="text-gray-600">Real reviews from satisfied clients</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-card rounded-2xl p-8 shadow-lg">
+                    <p class="text-gray-600 mb-4">"My car looks brand new! Carlos and team are pros."</p>
+                    <p class="font-bold">- Sarah M., Phoenix</p>
+                </div>
+                <div class="glass-card rounded-2xl p-8 shadow-lg">
+                    <p class="text-gray-600 mb-4">"Best detailing in AZ. Worth every penny."</p>
+                    <p class="font-bold">- Mike T., Scottsdale</p>
+                </div>
+                <div class="glass-card rounded-2xl p-8 shadow-lg">
+                    <p class="text-gray-600 mb-4">"Quick, thorough, and friendly service."</p>
+                    <p class="font-bold">- Lisa R., Tempe</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gray-50 rounded-3xl shadow-xl overflow-hidden animate-fadeIn">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <div class="p-12 lg:p-20">
+                        <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+                        <form action="https://formspree.io/your-email" method="POST" class="space-y-6">
+                            <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-xl" required>
+                            <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-xl" required>
+                            <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-xl h-32" required></textarea>
+                            <button type="submit" class="px-8 py-4 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition shadow-lg">Send Message</button>
+                        </form>
+                        <div class="mt-12 space-y-6">
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-user text-orange-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Owner</p>
+                                    <p class="font-bold">Carlos</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-phone text-orange-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Phone</p>
+                                    <a href="tel:6024305300" class="font-bold hover:text-orange-600 transition">602-430-5300</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mr-4">
+                                    <i class="fas fa-location-dot text-orange-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Address</p>
+                                    <p class="font-bold">804 N 24th St<br>Phoenix, AZ 85004</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="min-h-[400px] relative">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.748!2d-111.99999999999999!3d33.448377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b1222a2a2a2a2%3A0xa2a2a2a2a2a2a2a2!2s804%20N%2024th%20St%2C%20Phoenix%2C%20AZ%2085008!5e0!3m2!1sen!2sus!4v1672531234567&key=YOUR_API_KEY" 
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-2xl font-bold mb-4">Sunset Auto Detail</p>
+            <p class="text-gray-400 mb-4">Sunsetautodetailaz.com</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://instagram.com" class="text-gray-400 hover:text-white"><i class="fab fa-instagram text-2xl"></i></a>
+                <a href="https://facebook.com" class="text-gray-400 hover:text-white"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="https://twitter.com" class="text-gray-400 hover:text-white"><i class="fab fa-twitter text-2xl"></i></a>
+            </div>
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-sm text-gray-500">&copy; 2026 Sunset Auto Detail. All rights reserved. | <a href="/privacy" class="hover:text-white">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', () => {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
