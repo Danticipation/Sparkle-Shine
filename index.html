@@ -26,8 +26,8 @@
         /* Apply custom colors to Tailwind classes */
         .bg-arizona-gold { background-color: var(--color-arizona-gold); }
         .text-arizona-gold { color: var(--color-arizona-gold); }
-        .hover\\:bg-arizona-gold-dark:hover { background-color: var(--color-arizona-gold-dark); }
-        .hover\\:text-arizona-gold-dark:hover { color: var(--color-arizona-gold-dark); }
+        .hover\:bg-arizona-gold-dark:hover { background-color: var(--color-arizona-gold-dark); }
+        .hover\:text-arizona-gold-dark:hover { color: var(--color-arizona-gold-dark); }
         .border-arizona-gold { border-color: var(--color-arizona-gold); }
 
         .bg-arizona-black { background-color: var(--color-arizona-black); }
@@ -46,7 +46,7 @@
         .hover-scale { transition: transform 0.3s ease; }
         .hover-scale:hover { transform: scale(1.05); }
         .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
-        .hero-bg { background-image: url('https://source.unsplash.com/random/1920x1080/?sunset,car'); }
+        .hero-bg { background-image: url('Public/Home-interior-1.jpg'); }
         .delay-100 { animation-delay: 0.1s; }
         .delay-200 { animation-delay: 0.2s; }
         .delay-300 { animation-delay: 0.3s; }
@@ -72,26 +72,10 @@
                         <a href="tel:6024305300" class="bg-arizona-gold text-arizona-black px-4 py-2 rounded-full font-bold hover:bg-arizona-gold-dark transition">Call Now</a>
                     </div>
                 </div>
-                    <button type="button" id="menu-toggle" class="text-gray-600 hover:text-orange-500 focus:outline-none" aria-label="Open navigation menu">
-                        <span class="sr-only">Open navigation menu</span>
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" id="menu-toggle" class="inline-flex items-center justify-center p-2 rounded-md text-arizona-white hover:text-arizona-gold hover:bg-arizona-black-light focus:outline-none focus:ring-2 focus:ring-inset focus:ring-arizona-gold" aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
                         <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                    </button>
-                </div>
-            </div>
-            <div id="mobile-menu" class="hidden md:hidden px-4 py-4 space-y-4">
-                <div class="md:hidden">
-                    <button id="menu-toggle" class="text-arizona-white hover:text-arizona-gold focus:outline-none">
-                        <i class="fas fa-bars text-2xl"></i>
-                    </button>
-                </div>
-            </div>
-            <div id="mobile-menu" class="hidden md:hidden px-4 py-4 space-y-4">
-=======
-                    <button type="button" id="menu-toggle" class="text-gray-600 hover:text-orange-500 focus:outline-none" aria-label="Open navigation menu">
-                        <span class="sr-only">Open navigation menu</span>
-                        <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
                     </button>
                 </div>
             </div>
@@ -104,20 +88,9 @@
         </div>
     </nav>
 
-    <header class="relative min-h-screen flex items-center justify-center overflow-hidden parallax hero-bg">
-        <div class="absolute inset-0 bg-black/40"></div>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fadeIn">
-            <img src="Public/S-S-Logo.png" alt="Sparkle and Shine Logo" class="w-84 lg:w-96 h-auto mb-8 mx-auto drop-shadow-2xl">
     <!-- Hero Section -->
-    <header class="relative min-h-screen flex items-center justify-center overflow-hidden parallax" style="background-image: url('Public/Home-interior-1.jpg');">
-        <div class="absolute inset-0 bg-arizona-black/70"></div>
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fadeIn">
-            <img src="Public/S-S-Logo.png" alt="Sparkle and Shine Logo" class="w-84 lg:w-96 h-auto mb-8 mx-auto drop-shadow-2xl">
-=======
     <header class="relative min-h-screen flex items-center justify-center overflow-hidden parallax hero-bg">
-        <div class="absolute inset-0 bg-black/40"></div>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
+        <div class="absolute inset-0 bg-arizona-black/70"></div>
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fadeIn">
             <img src="Public/S-S-Logo.png" alt="Sparkle and Shine Logo" class="w-84 lg:w-96 h-auto mb-8 mx-auto drop-shadow-2xl">
             <h1 class="text-5xl lg:text-7xl font-extrabold tracking-tight text-arizona-gold mb-6">
@@ -166,37 +139,6 @@
             <div class="text-center mb-16 animate-fadeIn">
                 <h2 class="text-3xl lg:text-4xl font-bold text-arizona-black mb-4">Our Maid Service Packages</h2>
                 <p class="text-arizona-black-light">Choose the perfect level of sparkle for your home or rental property. Prices starting at:</p>
-                <!-- Essential -->
-                <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn delay-100">
-                    <h3 class="text-xl font-bold mb-2">Essential</h3>
-                    <p class="text-sm text-gray-500 mb-2">Starting at $99</p>
-                    <p class="text-sm text-gray-500 mb-6">Perfect for regular upkeep</p>
-                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Exterior Hand Wash & Dry</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tire Shine & Wheel Cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Windows Cleaned Inside & Out</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Quick Interior Vacuum</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Dashboard & Console Wipe</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Floor Mat Cleaning</li>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                    </ul>
-                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-arizona-black text-arizona-white rounded-xl font-bold hover:bg-arizona-black-light transition">Book Now</a>
-                </div>
-
-<<<<<<< HEAD
-                <!-- Deep Clean -->
-                <div class="border-2 border-arizona-gold glass-card rounded-2xl p-8 shadow-2xl relative flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.2s;">
-                    <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-arizona-gold text-arizona-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Most Popular</span>
-                    <h3 class="text-xl font-bold mb-2">Deep Clean</h3>
-                    <p class="text-sm text-arizona-black-light mb-2">Starting at $250</p>
-                    <p class="text-sm text-arizona-black-light mb-6">Comprehensive and thorough</p>
-                    <ul class="space-y-3 text-arizona-black-light mb-8 flex-grow">
-                        <li class="font-semibold text-arizona-black">Everything in Essential, plus:</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Detailed kitchen appliance cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Grout scrubbing</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Baseboard & trim cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Interior window cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Wall spot cleaning</li>
                 <!-- Essential Clean -->
                 <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.1s;">
                     <h3 class="text-xl font-bold mb-2">Essential Clean</h3>
@@ -225,83 +167,10 @@
                         <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Baseboard & trim cleaning</li>
                         <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Interior window cleaning</li>
                         <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Wall spot cleaning</li>
-=======
-                <!-- Essential -->
-                <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn delay-100">
-                    <h3 class="text-xl font-bold mb-2">Essential</h3>
-                    <p class="text-sm text-gray-500 mb-2">Starting at $99</p>
-                    <p class="text-sm text-gray-500 mb-6">Perfect for regular upkeep</p>
-                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Exterior Hand Wash &amp; Dry</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tire Shine &amp; Wheel Cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Windows Cleaned Inside &amp; Out</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Quick Interior Vacuum</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Dashboard &amp; Console Wipe</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Floor Mat Cleaning</li>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
                     </ul>
                     <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-arizona-black text-arizona-white rounded-xl font-bold hover:bg-arizona-black-light transition">Book Now</a>
                 </div>
 
-<<<<<<< HEAD
-                <!-- Deep Clean -->
-                <div class="border-2 border-arizona-gold glass-card rounded-2xl p-8 shadow-2xl relative flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.2s;">
-                    <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-arizona-gold text-arizona-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Most Popular</span>
-                    <h3 class="text-xl font-bold mb-2">Deep Clean</h3>
-                    <p class="text-sm text-arizona-black-light mb-2">Starting at $250</p>
-                    <p class="text-sm text-arizona-black-light mb-6">Comprehensive and thorough</p>
-                    <ul class="space-y-3 text-arizona-black-light mb-8 flex-grow">
-                        <li class="font-semibold text-arizona-black">Everything in Essential, plus:</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Detailed kitchen appliance cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Grout scrubbing</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Baseboard & trim cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Interior window cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-arizona-gold mt-1 mr-2"></i> Wall spot cleaning</li>
-=======
-                <!-- Signature -->
-                <div class="border-2 border-orange-500 glass-card rounded-2xl p-8 shadow-2xl relative flex flex-col hover-scale animate-fadeIn delay-200">
-                    <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-orange-500 text-white px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Most Popular</span>
-                    <h3 class="text-xl font-bold mb-2">Signature</h3>
-                    <p class="text-sm text-gray-500 mb-2">Starting at $199</p>
-                    <p class="text-sm text-gray-500 mb-6">Complete transformation</p>
-                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
-                        <li class="font-semibold text-gray-900">Everything in Essential, plus:</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Deep Interior Vacuum &amp; Cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Leather/Vinyl Conditioning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Door Jamb Cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Clay Bar Treatment</li>
-                        <li class="flex items-start"><i class="fas fa-plus text-orange-500 mt-1 mr-2"></i> Wax Application</li>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                <!-- Bundle -->
-                <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn delay-300">
-                    <h3 class="text-xl font-bold mb-2">Bundle</h3>
-                    <p class="text-sm text-gray-500 mb-2">Starting at $249</p>
-                    <p class="text-sm text-gray-500 mb-6">Interior + Premium Exterior</p>
-                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Complete Interior Detailing</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Premium Exterior Hand Wash</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Clay Bar Treatment</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Wax Application</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tire & Wheel Deep Clean</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Windows & Trim Perfection</li>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                    </ul>
-                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-arizona-black text-arizona-white rounded-xl font-bold hover:bg-arizona-black-light transition">Book Now</a>
-                </div>
-
-<<<<<<< HEAD
-                <!-- Elite Sparkle -->
-                <div class="bg-arizona-black text-arizona-white rounded-2xl p-8 shadow-2xl flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.4s;">
-                    <h3 class="text-xl font-bold mb-2">Elite Sparkle</h3>
-                    <p class="text-sm text-arizona-white mb-2">Starting at $350</p>
-                    <p class="text-sm text-arizona-white mb-6">Ultimate luxury cleaning</p>
-                    <ul class="space-y-3 text-arizona-white mb-8 flex-grow">
-                        <li class="font-semibold text-white">Everything in Deep Clean, plus:</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Upholstery & carpet deep cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Organization & decluttering</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Post-construction/event cleanup</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Exterior patio/balcony sweep</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Custom requests & concierge service</li>
                 <!-- Airbnb Turnaround -->
                 <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.3s;">
                     <h3 class="text-xl font-bold mb-2">Airbnb Turnaround</h3>
@@ -329,51 +198,6 @@
                         <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Post-construction/event cleanup</li>
                         <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Exterior patio/balcony sweep</li>
                         <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Custom requests & concierge service</li>
-=======
-                <!-- Bundle -->
-                <div class="glass-card rounded-2xl p-8 shadow-lg hover:shadow-2xl transition duration-300 flex flex-col hover-scale animate-fadeIn delay-300">
-                    <h3 class="text-xl font-bold mb-2">Bundle</h3>
-                    <p class="text-sm text-gray-500 mb-2">Starting at $249</p>
-                    <p class="text-sm text-gray-500 mb-6">Interior + Premium Exterior</p>
-                    <ul class="space-y-3 text-gray-600 mb-8 flex-grow">
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Complete Interior Detailing</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Premium Exterior Hand Wash</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Clay Bar Treatment</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Wax Application</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Tire &amp; Wheel Deep Clean</li>
-                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Windows &amp; Trim Perfection</li>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                    </ul>
-                    <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-arizona-black text-arizona-white rounded-xl font-bold hover:bg-arizona-black-light transition">Book Now</a>
-                </div>
-
-<<<<<<< HEAD
-                <!-- Elite Sparkle -->
-                <div class="bg-arizona-black text-arizona-white rounded-2xl p-8 shadow-2xl flex flex-col hover-scale animate-fadeIn" style="animation-delay: 0.4s;">
-                    <h3 class="text-xl font-bold mb-2">Elite Sparkle</h3>
-                    <p class="text-sm text-arizona-white mb-2">Starting at $350</p>
-                    <p class="text-sm text-arizona-white mb-6">Ultimate luxury cleaning</p>
-                    <ul class="space-y-3 text-arizona-white mb-8 flex-grow">
-                        <li class="font-semibold text-white">Everything in Deep Clean, plus:</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Upholstery & carpet deep cleaning</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Organization & decluttering</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Post-construction/event cleanup</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Exterior patio/balcony sweep</li>
-                        <li class="flex items-start"><i class="fas fa-star text-arizona-gold mt-1 mr-2"></i> Custom requests & concierge service</li>
-=======
-                <!-- Elite -->
-                <div class="bg-gray-900 text-white rounded-2xl p-8 shadow-2xl flex flex-col hover-scale animate-fadeIn delay-400">
-                    <h3 class="text-xl font-bold mb-2">Elite</h3>
-                    <p class="text-sm text-gray-400 mb-2">Starting at $299</p>
-                    <p class="text-sm text-gray-400 mb-6">Showroom quality finish</p>
-                    <ul class="space-y-3 text-gray-300 mb-8 flex-grow">
-                        <li class="font-semibold text-white">Everything in Signature, plus:</li>
-                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Engine Bay Detail</li>
-                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Headlight Restoration</li>
-                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Paint Correction (1-Step)</li>
-                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Premium Sealant Protection</li>
-                        <li class="flex items-start"><i class="fas fa-star text-yellow-500 mt-1 mr-2"></i> Chrome &amp; Trim Polishing</li>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
                     </ul>
                     <a href="tel:6024305300" class="mt-auto px-6 py-3 bg-arizona-gold text-arizona-black rounded-xl font-bold hover:bg-arizona-gold-dark transition">Book Now</a>
                 </div>
@@ -384,22 +208,9 @@
     <!-- Gallery Section -->
     <section id="gallery" class="py-20 bg-arizona-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Before & After Gallery</h2>
-                <p class="text-gray-600">See the Sunset difference for yourself</p>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <img src="Public/Kitchen-1.jpg" alt="Clean Kitchen" class="rounded-xl shadow-lg hover-scale" loading="lazy">
             <div class="text-center mb-16 animate-fadeIn">
                 <h2 class="text-3xl lg:text-4xl font-bold text-arizona-black mb-4">Our Sparkle Gallery</h2>
                 <p class="text-arizona-black-light">See the pristine results of Sparkle and Shine</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <img src="Public/Kitchen-1.jpg" alt="Clean Kitchen" class="rounded-xl shadow-lg hover-scale" loading="lazy">
-=======
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Before &amp; After Gallery</h2>
-                <p class="text-gray-600">See the Sunset difference for yourself</p>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <img src="Public/Kitchen-1.jpg" alt="Clean Kitchen" class="rounded-xl shadow-lg hover-scale" loading="lazy">
@@ -444,16 +255,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="bg-arizona-white rounded-3xl shadow-xl overflow-hidden animate-fadeIn">
                 <div class="grid grid-cols-1 lg:grid-cols-2">
-                        <form action="https://formspree.io/your-email" method="post" class="space-y-6">
-                            <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-xl" required>
-                            <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-xl" required>
-                            <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-xl h-32" required></textarea>
-                            <button type="submit" class="px-8 py-4 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition shadow-lg">Send Message</button>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                        </form>
-                        <div class="mt-12 space-y-6">
-                            <div class="flex items-center">
-                                <div class="w-12 h-12 bg-arizona-gold/20 rounded-full flex items-center justify-center mr-4">
                     <div class="p-12 lg:p-20">
                         <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
                         <form action="https://formspree.io/your-email" method="POST" class="space-y-6">
@@ -461,17 +262,6 @@
                             <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-arizona-black-light rounded-xl" required>
                             <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-arizona-black-light rounded-xl h-32" required></textarea>
                             <button type="submit" class="px-8 py-4 bg-arizona-gold text-arizona-black rounded-xl font-bold hover:bg-arizona-gold-dark transition shadow-lg">Send Message</button>
-                        </form>
-                        <div class="mt-12 space-y-6">
-                            <div class="flex items-center">
-                                <div class="w-12 h-12 bg-arizona-gold/20 rounded-full flex items-center justify-center mr-4">
-=======
-                        <form action="https://formspree.io/your-email" method="post" class="space-y-6">
-                            <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-xl" required>
-                            <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-xl" required>
-                            <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-xl h-32" required></textarea>
-                            <button type="submit" class="px-8 py-4 bg-orange-500 text-white rounded-xl font-bold hover:bg-orange-600 transition shadow-lg">Send Message</button>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
                         </form>
                         <div class="mt-12 space-y-6">
                             <div class="flex items-center">
@@ -502,15 +292,6 @@
                                 </div>
                             </div>
                         </div>
-                        <iframe
-                            title="Google Maps location of Sunset Auto Detail at 804 N 24th St, Phoenix, AZ"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.748!2d-111.99999999999999!3d33.448377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b1222a2a2a2a2%3A0xa2a2a2a2a2a2a2a2!2s804%20N%2024th%20St%2C%20Phoenix%2C%20AZ%2085008!5e0!3m2!1sen!2sus!4v1672531234567&key=YOUR_API_KEY"
-                            width="100%" height="100%" class="no-border" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                        </iframe>
-                    </div>
-                </div>
-            </div>
                     </div>
                     <div class="min-h-[400px] relative">
                         <iframe 
@@ -520,7 +301,6 @@
                     </div>
                 </div>
             </div>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
         </div>
     </section>
 
@@ -530,57 +310,9 @@
             <p class="text-2xl font-bold mb-4">Sparkle and Shine</p>
             <p class="text-arizona-white mb-4">SparkleandShineMaidServices.com</p>
             <div class="flex justify-center space-x-6 mb-8">
-<<<<<<< HEAD
                 <a href="https://instagram.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-instagram text-2xl"></i></a>
                 <a href="https://facebook.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-facebook text-2xl"></i></a>
                 <a href="https://twitter.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-twitter text-2xl"></i></a>
-                <a href="https://instagram.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-instagram text-2xl"></i></a>
-                <a href="https://facebook.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-facebook text-2xl"></i></a>
-                <a href="https://twitter.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-twitter text-2xl"></i></a>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-            </div>
-            <div class="border-t border-arizona-black-light pt-8">
-                <p class="text-sm text-arizona-white">&copy; 2026 Sparkle and Shine. All rights reserved. | <a href="/privacy" class="hover:text-arizona-gold">Privacy Policy</a></p>
-            </div>
-        </div>
-    </footer>
-    <script>
-        // Mobile menu toggle
-        document.getElementById('menu-toggle').addEventListener('click', () => {
-            const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
-        });
-    </script>
-
-</body>
-=======
-                        <iframe
-                            title="Google Maps location of Sunset Auto Detail at 804 N 24th St, Phoenix, AZ"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.748!2d-111.99999999999999!3d33.448377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b1222a2a2a2a2%3A0xa2a2a2a2a2a2a2a2!2s804%20N%2024th%20St%2C%20Phoenix%2C%20AZ%2085008!5e0!3m2!1sen!2sus!4v1672531234567&amp;key=YOUR_API_KEY"
-                            width="100%" height="100%" class="no-border" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-arizona-black text-arizona-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-2xl font-bold mb-4">Sparkle and Shine</p>
-            <p class="text-arizona-white mb-4">SparkleandShineMaidServices.com</p>
-            <div class="flex justify-center space-x-6 mb-8">
-<<<<<<< HEAD
-                <a href="https://instagram.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-instagram text-2xl"></i></a>
-                <a href="https://facebook.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-facebook text-2xl"></i></a>
-                <a href="https://twitter.com" class="text-arizona-white hover:text-arizona-gold"><i class="fab fa-twitter text-2xl"></i></a>
-=======
-                <a href="https://instagram.com" class="text-gray-400 hover:text-white" aria-label="Follow us on Instagram"><span class="sr-only">Instagram</span><i class="fab fa-instagram text-2xl" aria-hidden="true"></i></a>
-                <a href="https://facebook.com" class="text-gray-400 hover:text-white" aria-label="Follow us on Facebook"><span class="sr-only">Facebook</span><i class="fab fa-facebook text-2xl" aria-hidden="true"></i></a>
-                <a href="https://twitter.com" class="text-gray-400 hover:text-white" aria-label="Follow us on Twitter"><span class="sr-only">Twitter</span><i class="fab fa-twitter text-2xl" aria-hidden="true"></i></a>
->>>>>>> 92d6dc5d34e65184d02051142e1e200d0daf0812
             </div>
             <div class="border-t border-arizona-black-light pt-8">
                 <p class="text-sm text-arizona-white">&copy; 2026 Sparkle and Shine. All rights reserved. | <a href="/privacy" class="hover:text-arizona-gold">Privacy Policy</a></p>
